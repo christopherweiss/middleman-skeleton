@@ -1,4 +1,10 @@
-## Clone Repo
+=======
+middleman-skeleton
+==================
+
+Middleman skeleton for using slim, compass and CoffeeScript.
+
+## Clone the Repo
 
 ## Install gems
 $ bundle install
