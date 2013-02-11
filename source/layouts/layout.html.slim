@@ -1,11 +1,26 @@
 doctype 5
 head
-  title ""
+  title
+    | Welcome to your website
+
+  meta charset="utf-8"
+  meta name="viewport" content="width=device-width"
 
   == stylesheet_link_tag 'application.min'
 
+  /[if IE 7]
+    == stylesheet_link_tag '/stylesheets/ie7.min'
+
+  /[if IE 8]
+    == stylesheet_link_tag '/stylesheets/ie8.min'
+
+  /[if IE 9]
+    == stylesheet_link_tag 'stylesheets/ie9.min'
+
+  /[if IE]
+    == stylesheet_link_tag '/stylesheets/ie.min'
+
 body
-  == partial 'layouts/navigation/left'
-  == partial 'layouts/navigation/right'
-  == partial 'layouts/home/index'
+  == partial 'layouts/shared/header'
+  == yield
   == partial 'layouts/shared/footer'
