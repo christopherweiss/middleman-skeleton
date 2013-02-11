@@ -1,0 +1,76 @@
+// ****************************************************************
+// *    @file generic
+// *    @description generic styles
+// ****************************************************************
+body
+    font-family: $font_family
+    font-size: $font_size
+    line-height: $line_height
+    color: $main_color
+
+// ****************************************************************
+// * Links
+// ****************************************************************
+a
+    color: $link_color
+    text-decoration: none
+    &:hover
+        color: $link_color_hover
+    &:active
+        color: $link_color_active
+    &:visited
+        color: $link_color_visited
+
+// ****************************************************************
+// * Headlines
+// ****************************************************************
+h1
+    font-size: 2em
+h2
+    font-size: 1.5em
+h3
+    font-size: 1.17em
+h5
+    font-size: .83em
+h6
+    font-size: .75em
+
+h1, h2, h3, h4, h5, h6
+    margin-bottom: 4px
+
+h4, h5, h6
+    @extend .bold
+
+// ****************************************************************
+// * Blocktext
+// ****************************************************************
+p
+    margin: 0 0 15px 0
+    &:empty
+        display: none
+strong
+    @extend .bold
+em
+    @extend .italic
+
+// ****************************************************************
+// * List
+// ****************************************************************
+ul
+    &.left
+        float: left
+        width: 400px
+        margin: 0px
+        padding: 15px 0px
+        border: 0px none
+        list-style-position: inside
+        list-style-type: square
+        position: relative
+    &.right 
+        float: right
+        width: 400px
+        margin: 0px
+        padding: 15px 0px
+        border: 0px none
+        list-style-position: inside
+        list-style-type: square

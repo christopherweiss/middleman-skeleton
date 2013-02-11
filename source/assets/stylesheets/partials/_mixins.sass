@@ -1,0 +1,13 @@
+//****************************************************************
+// *    @file: mixins
+// *    @description: user functions
+//****************************************************************
+@import compass/utilities/general/hacks
+
+/****************************************************************/
+/* @description renders the gradiant for IE
+/* @param hex-color, hex-color
+/****************************************************************/
+=ie_gradient ($start-color, $end-color)
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#{$start-color}', endColorstr='#{$end-color}')
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$start-color}', endColorstr='#{$end-color}')"
