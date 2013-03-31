@@ -6,19 +6,20 @@ head
   meta charset="utf-8"
   meta name="viewport" content="width=device-width"
 
-  == stylesheet_link_tag 'application'
+  == stylesheet_link_tag 'application.css'
+  == stylesheet_link_tag 'print.css'
 
   /[if IE 7]
-    == stylesheet_link_tag '/stylesheets/ie7'
+    == stylesheet_link_tag '/stylesheets/ie7.css'
 
   /[if IE 8]
-    == stylesheet_link_tag '/stylesheets/ie8'
+    == stylesheet_link_tag '/stylesheets/ie8.css'
 
   /[if IE 9]
-    == stylesheet_link_tag 'stylesheets/ie9'
+    == stylesheet_link_tag 'stylesheets/ie9.css'
 
   /[if IE]
-    == stylesheet_link_tag '/stylesheets/ie'
+    == stylesheet_link_tag '/stylesheets/ie.css'
 
 body
   == partial 'layouts/shared/header'
