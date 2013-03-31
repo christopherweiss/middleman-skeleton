@@ -7,6 +7,7 @@ set :js_dir,      'assets/javascripts'
 set :images_dir,  'assets/images'
 
 activate :directory_indexes
+activate :i18n, :mount_at_root => :en
 
 Slim::Engine.set_default_options :pretty => true
 
