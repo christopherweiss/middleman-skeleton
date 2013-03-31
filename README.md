@@ -1,16 +1,41 @@
-=======
 middleman-skeleton
 ==================
+------------------
 
-Middleman skeleton for using slim, compass and CoffeeScript.
+[Middleman](middlemanapp.com/) skeleton to start frontend prototyping.
 
-## Clone the Repo
+Frameworks
+----------
+- [CoffeeScript](http://coffeescript.org)
+- [Slim](Slim-lang.com)
+- [SASS](sass-lang.com) and [Compass](compass-style.org)
 
-## Install gems
-$ bundle install
+JavaScript
+-----------
+- jQuery 1.9.2
+- Modernizr 2.6.2
 
-## Start middleman
-$ middleman server
+SASS
+-----
+- My personal [SASS skeleton](https://github.com/christopherweiss/sass-skeleton/tree/master/sass)
 
-## Go to your website
-http://localhost:4567/
+
+Installation
+============
+------------
+clone the repository
+<pre> git clone https://github.com/christopherweiss/middleman-skeleton.git </pre>
+go into the directory
+run <pre>bundle install</pre>
+start the server <pre>middleman</pre>
+<pre>
+› middleman
+== The Middleman is loading
+== Locales: en (Default en)
+== The Middleman is standing watch at http://0.0.0.0:4567
+</pre>
+
+Now you have access to your middleman server over [localhost:4567](http://localhost:4567).
+
+Happy hacking, have fun with it. :-)
+=============================
