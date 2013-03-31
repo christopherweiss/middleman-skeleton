@@ -1,0 +1,5 @@
+en:
+  welcome:
+    hello: 'Hello %{who}'
+  home:
+    hello: 'Welcome to the home page.'
