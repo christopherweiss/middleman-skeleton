@@ -6,19 +6,19 @@ head
   meta charset="utf-8"
   meta name="viewport" content="width=device-width"
 
-  == stylesheet_link_tag 'application.min'
+  == stylesheet_link_tag 'application'
 
   /[if IE 7]
-    == stylesheet_link_tag '/stylesheets/ie7.min'
+    == stylesheet_link_tag '/stylesheets/ie7'
 
   /[if IE 8]
-    == stylesheet_link_tag '/stylesheets/ie8.min'
+    == stylesheet_link_tag '/stylesheets/ie8'
 
   /[if IE 9]
-    == stylesheet_link_tag 'stylesheets/ie9.min'
+    == stylesheet_link_tag 'stylesheets/ie9'
 
   /[if IE]
-    == stylesheet_link_tag '/stylesheets/ie.min'
+    == stylesheet_link_tag '/stylesheets/ie'
 
 body
   == partial 'layouts/shared/header'
