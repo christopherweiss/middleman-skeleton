@@ -4,11 +4,12 @@ middleman-skeleton
 
 [Middleman](http://middlemanapp.com/) skeleton to start frontend prototyping.
 
-Frameworks
+Including
 ----------
 - [CoffeeScript](http://coffeescript.org)
 - [Slim](http://slim-lang.com)
 - [SASS](http://sass-lang.com) and [Compass](http://compass-style.org)
+- [I18n](http://middlemanapp.com/advanced/localization/)
 
 JavaScript
 -----------
