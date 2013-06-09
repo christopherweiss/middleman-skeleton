@@ -1,6 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem 'middleman',        '~> 3.0.13'
-gem 'slim',             '~> 1.3.6'
-gem 'compass',          '~> 0.12.2'
-gem 'coffee-script',    '~> 2.2.0'
+gem 'middleman',        '~> 3.0.x'
+gem 'slim',             '~> 1.x.x'
+gem 'compass',          '~> 0.12.x'
+gem 'coffee-script',    '~> 2.2.x'
