@@ -1,15 +1,15 @@
 require 'compass'
 require 'slim'
 require 'coffee-script'
+require 'helper/translation_helper'
 
 set :css_dir,     'assets/stylesheets'
 set :js_dir,      'assets/javascripts'
 set :images_dir,  'assets/images'
 
+activate :translation_helper
 activate :directory_indexes
 activate :i18n, :mount_at_root => :en
-
-Slim::Engine.set_default_options :pretty => true
 
 compass_config do | config |
   config.preferred_syntax   = :sass
